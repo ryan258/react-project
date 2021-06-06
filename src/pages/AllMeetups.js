@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 // import MeetupItem from '../components/meetups/MeetupItem'
 import MeetupList from '../components/meetups/MeetupList'
 
-const DUMMY_DATA = [
+/*const DUMMY_DATA = [
   {
     id: 'm1',
     title: 'This is a first meetup',
@@ -17,7 +17,7 @@ const DUMMY_DATA = [
     address: 'Meetupstreet 5, 12345 Meetup City',
     description: 'This is a first, amazing meetup which you definitely should not miss. It will be a lot of fun!'
   }
-]
+] */
 
 const AllMeetupsPage = () => {
   const [isLoading, setIsLoading] = useState(true)
